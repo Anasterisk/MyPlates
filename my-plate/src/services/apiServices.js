@@ -1,6 +1,8 @@
 import axios from "axios";
 
-export const BASE_URL = 'http://localhost:3001'
+// export const BASE_URL = 'http://localhost:3001'
+export const BASE_URL = 'https://git.heroku.com/my-plates.git'
+
 
 const axiosCreate = axios.create({ baseURL: BASE_URL})
 
